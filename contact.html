@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Exceptional Realty Group - Luxury Homes - Contact</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 
@@ -20,7 +21,8 @@
 
   <!-- Contact Form -->
 
-  <form action="#" method="post">
+  <form action="#" method="post" data-aos="fade-up"
+     data-aos-duration="3000">
     <label for="fullname">Name</label>
     <input type="text" id="fullname" name="fullname" placeholder="your name" required>
     <label for="email">Email</label>
@@ -33,4 +35,8 @@
   </form>
   
 </body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
